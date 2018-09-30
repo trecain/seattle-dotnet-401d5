@@ -20,7 +20,7 @@
 			- [Opening Visual Studio with PowerShell](https://www.developerbackpack.com/code-snippets/opening-visual-studio-with-powershell/)
 			- [Creating and editing SLN files with .NET CLI](https://andrewlock.net/creating-and-editing-solution-files-with-the-net-cli/)
 			- [DotNet CLI Tools](https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x)
-		- Commands to create
+		- Commands:
 			- `dotnet new sln <name>`
 			- `mkdir <nameOfProject>`
 			- `cd <nameOfProject>`
