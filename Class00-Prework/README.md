@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Class 00: Prework Introduction
+![cf](http://i.imgur.com/7v5ASc8.png) Class 00: Prework & Tools Introduction
 =====================================
 
 ## Agenda
@@ -41,6 +41,7 @@
 
 5. Data Types
 	- different data types
+		- [Resource on Types](https://codefellows.github.io/code-401-dotnet-guide/Curriculum/Class01/Resources/Types)
 	- declaring variables
 
 6. Selective Statements
@@ -60,3 +61,9 @@
 		- new array
 
 10. Push code up using Team Explorer git extension
+
+11. Prework Overview
+	1. Tutorials
+	2. Readings
+	3. Coding Challenges
+	4. Quiz
