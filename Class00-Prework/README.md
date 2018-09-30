@@ -53,6 +53,7 @@
 
 8. Iterative Statements
 	- for loop
+	- foreach
 	- while loop
 
 9. Code challenge 
