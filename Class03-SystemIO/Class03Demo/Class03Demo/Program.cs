@@ -143,5 +143,17 @@ namespace Class03Demo
 			File.Delete(path);
 		}
 
+		static void PracticeUsingSplit()
+		{
+			char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
+			string text = "one\ttwo three:four,five six seven";
+			string[] words = text.Split(delimiterChars);
+
+			foreach (string s in words)
+			{
+				System.Console.WriteLine(s);
+			}
+		}
+
 	}
 }
