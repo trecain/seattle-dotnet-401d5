@@ -54,6 +54,8 @@ namespace Class04Demo
 		static void LibraryExample()
 		{
 			Library library = new Library();
+
+			library.CheckOut();
 		}
 
 
