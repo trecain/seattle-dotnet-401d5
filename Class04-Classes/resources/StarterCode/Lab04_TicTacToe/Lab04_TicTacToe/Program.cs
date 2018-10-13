@@ -7,20 +7,22 @@ namespace Lab04_TicTacToe
 	{
 		static void Main(string[] args)
 		{
+            //Instantiate the Board class
             Board board = new Board();
+            //Run theh logic of the game.
             PlayGame();
 		}
 
 		static void PlayGame()
 		{
-            // TODO: Instantiate your players
+            // DONE: Instantiate your players
             // Create the Game
             // Play the Game
             // Output the winner
-            Console.Write("Player one, enter your name: ");
+            Console.Write("Enter your name challenger one: ");
             string playerOneName = Console.ReadLine();
             Player playerOne = new Player(playerOneName, "X", true);
-            Console.Write("Player two, enter your name: ");
+            Console.Write("Enter your name challenger two: ");
             string playerTwoName = Console.ReadLine();
             Player playerTwo = new Player(playerTwoName, "O", false);
             Game game = new Game(playerOne, playerTwo);
