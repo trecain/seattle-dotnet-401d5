@@ -1,4 +1,5 @@
-https://github.com/trecain/seattle-dotnet-401d5/blob/master/Class04-Classes/resources/StarterCode/Lab04_TicTacToe/tictac.PNG# Lab04-TicTacToe
+#Lab)4-TicTacToe
+
 ## Overview:
 
 This is a Console Tic-Tac-Toe game written in C# using Code fellows .Net 401 starter code.
