@@ -48,6 +48,14 @@ namespace XUnitTestTicTacToe
             Assert.Equal("O", game.Board.GameBoard[2, 1]);        
         }
 
-
+        //Should construct a new board
+        [Fact]
+        public void CanGenerateANewBoard()
+        {
+            Board board = new Board();
+            Assert.Equal("2", board.GameBoard[0, 1]);
+            Assert.Equal("3", board.GameBoard[0, 2]);
+            Assert.Equal("8", board.GameBoard[2, 1]);
+        }
     }
 }
