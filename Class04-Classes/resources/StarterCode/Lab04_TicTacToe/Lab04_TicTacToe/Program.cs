@@ -3,9 +3,9 @@ using System;
 
 namespace Lab04_TicTacToe
 {
-	class Program
+	public class Program
 	{
-		static void Main(string[] args)
+		public static void Main(string[] args)
 		{
             //Instantiate the Board class
             Board board = new Board();
