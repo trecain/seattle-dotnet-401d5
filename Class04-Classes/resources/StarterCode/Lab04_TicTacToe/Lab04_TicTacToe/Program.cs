@@ -25,6 +25,7 @@ namespace Lab04_TicTacToe
             Console.Write("Enter your name challenger two: ");
             string playerTwoName = Console.ReadLine();
             Player playerTwo = new Player(playerTwoName, "O", false);
+            Console.WriteLine(" ");
             Game game = new Game(playerOne, playerTwo);
             game.Play();
 		}

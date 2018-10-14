@@ -60,11 +60,13 @@ namespace Lab04_TicTacToe.Classes
 
             if (numberOfTurns > 9 && Winner == null)
             {
-                Console.WriteLine($"Nice Try players! you've battled hard but finished in a draw.");
+                Console.WriteLine("Nice Try players! you've battled hard but finished in a draw.");
             }
             else
             {
+                Console.WriteLine("We have a winner!");
                 Console.WriteLine($"{Winner.Name}, you are the champion!");
+                Console.WriteLine("Have fun? Don't hesitate to tell your friends about us.");
             }
             return Winner;
 		}

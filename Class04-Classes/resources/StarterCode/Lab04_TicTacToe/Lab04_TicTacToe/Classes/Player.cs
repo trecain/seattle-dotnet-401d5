@@ -30,7 +30,7 @@ namespace Lab04_TicTacToe.Classes
 			Position desiredCoordinate = null;
 			while (desiredCoordinate is null)
 			{
-				Console.WriteLine("Please select a location");
+                Console.WriteLine("Please select a location");
 				Int32.TryParse(Console.ReadLine(), out int position);
 				desiredCoordinate = PositionForNumber(position);
 			}
@@ -62,17 +62,19 @@ namespace Lab04_TicTacToe.Classes
 		{
 			IsTurn = true;
 
-			Console.WriteLine($"{Name} it is your turn");
-
-			Position position = GetPosition(board);
+            Console.WriteLine(" ");
+            Console.WriteLine($"You're up {Name}");
+            Position position = GetPosition(board);
 
 			if (Int32.TryParse(board.GameBoard[position.Row, position.Column], out int _))
 			{
-				board.GameBoard[position.Row, position.Column] = Marker;
+                Console.WriteLine(" ");
+                board.GameBoard[position.Row, position.Column] = Marker;
 			}
 			else
 			{
-				Console.WriteLine("This space is already occupied");
+                Console.WriteLine(" ");
+                Console.WriteLine("This space is already occupied, pick another.");
 			}
 		}
 	}
